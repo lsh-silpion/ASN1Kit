@@ -23,7 +23,7 @@ packages:
     majorVersion: 0.18.0
   Nimble:
     url: https://github.com/Quick/Nimble/
-    majorVersion: 10.0.0
+    majorVersion: 12.3.0
 targets:
   ASN1Kit:
     type: framework
