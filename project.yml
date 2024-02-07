@@ -1,11 +1,13 @@
 name: ASN1Kit
 options:
-  bundleIdPrefix: de.gematik.ti.common
+  bundleIdPrefix: de.silpion.ti.common
   deploymentTarget:
     macOS: 11.0
-    iOS: 12.1
+    iOS: 17.2
 settings:
   base:
+    GENERATE_INFOPLIST_FILE: YES
+    DEVELOPMENT_TEAM: 67X5G8WXSG
     VERSIONING_SYSTEM: "apple-generic"
     CURRENT_PROJECT_VERSION: -1
     SWIFT_VERSION: 5.0

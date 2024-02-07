@@ -554,6 +554,21 @@
 			attributes = {
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					1C876C47CB6FF5E554E61A88 = {
+						DevelopmentTeam = 67X5G8WXSG;
+					};
+					2642DB693D29AADDF35E6199 = {
+						DevelopmentTeam = 67X5G8WXSG;
+					};
+					572EA20592E8E506DCA69F56 = {
+						DevelopmentTeam = 67X5G8WXSG;
+					};
+					6958CEE18CD9C1A98EE0CFB0 = {
+						DevelopmentTeam = 67X5G8WXSG;
+					};
+					ADF48795950D497705C1D029 = {
+						DevelopmentTeam = 67X5G8WXSG;
+					};
 				};
 			};
 			buildConfigurationList = A8AD84FCA0AD964412756D0E /* Build configuration list for PBXProject "ASN1Kit" */;
@@ -801,6 +816,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "-1";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 67X5G8WXSG;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -817,7 +833,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -850,7 +867,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.gematik.ti.common.ASN1Kit-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.silpion.ti.common.ASN1Kit-iOS";
 				PRODUCT_NAME = ASN1Kit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -868,7 +885,7 @@
 					"\"Carthage/Build\"",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path";
-				PRODUCT_BUNDLE_IDENTIFIER = de.gematik.ti.common.asn1c;
+				PRODUCT_BUNDLE_IDENTIFIER = de.silpion.ti.common.asn1c;
 				SDKROOT = macosx;
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
@@ -895,7 +912,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.gematik.ti.common.ASN1Kit-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.silpion.ti.common.ASN1Kit-macOS";
 				PRODUCT_NAME = ASN1Kit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -922,7 +939,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.gematik.ti.common.ASN1Kit-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.silpion.ti.common.ASN1Kit-iOS";
 				PRODUCT_NAME = ASN1Kit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -951,7 +968,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.gematik.ti.common.ASN1Kit-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.silpion.ti.common.ASN1Kit-macOS";
 				PRODUCT_NAME = ASN1Kit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -970,7 +987,7 @@
 					"@loader_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.gematik.ti.common.ASN1KitTests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.silpion.ti.common.ASN1KitTests-iOS";
 				PRODUCT_NAME = ASN1KitTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -989,7 +1006,7 @@
 					"@loader_path/../Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.gematik.ti.common.ASN1KitTests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.silpion.ti.common.ASN1KitTests-macOS";
 				PRODUCT_NAME = ASN1KitTests;
 				SDKROOT = macosx;
 			};
@@ -1004,7 +1021,7 @@
 					"\"Carthage/Build\"",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path";
-				PRODUCT_BUNDLE_IDENTIFIER = de.gematik.ti.common.asn1c;
+				PRODUCT_BUNDLE_IDENTIFIER = de.silpion.ti.common.asn1c;
 				SDKROOT = macosx;
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
@@ -1048,6 +1065,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "-1";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 67X5G8WXSG;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1058,7 +1076,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -1082,7 +1101,7 @@
 					"@loader_path/../Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.gematik.ti.common.ASN1KitTests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.silpion.ti.common.ASN1KitTests-macOS";
 				PRODUCT_NAME = ASN1KitTests;
 				SDKROOT = macosx;
 			};
@@ -1099,7 +1118,7 @@
 					"@loader_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-no-verify-emitted-module-interface";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.gematik.ti.common.ASN1KitTests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.silpion.ti.common.ASN1KitTests-iOS";
 				PRODUCT_NAME = ASN1KitTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1179,7 +1198,7 @@
 			repositoryURL = "https://github.com/Quick/Nimble/";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 10.0.0;
+				minimumVersion = 12.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
